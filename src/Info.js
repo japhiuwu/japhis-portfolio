@@ -36,7 +36,7 @@ export default function Info() {
           <div className="flex items-center px-4 mb-1">
             <img 
               src="https://images.genius.com/1c02cb407997ac92aa935c165a5d09c6.1000x1000x1.png" 
-              alt="Profile picture" 
+              alt="Profile" 
               className="w-20 h-auto rounded-full"
             />
             <div className="pl-3">

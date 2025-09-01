@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import AppCard from "./AppCard";
 import Slider from "./Slider";
 import "./styles/Portfolio.css";
-import { Link } from "react-router-dom";
 
 
 const Projects = [

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 function AppCard({ selectedIndex, Projects }) {
-  const [imgLoaded, setImgLoaded] = useState(false);
 
   return (
     <section className="info-section">
@@ -69,7 +68,6 @@ function AppCard({ selectedIndex, Projects }) {
             src={Projects[selectedIndex].images[0]}
             alt="Captura de"
             id="cover"
-            onLoad={() => setImgLoaded(true)}
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.95 }}
