@@ -1,0 +1,12 @@
+#home-button {
+  width: 20vw;                
+  max-width: 150px;           
+  min-width: 80px;            
+  aspect-ratio: 1 / 1;
+  font-size: 3vw;
+  opacity: 0.5;
+  border-radius: 15%;
+  border: none;
+  background: white;
+  color: #222;
+}
