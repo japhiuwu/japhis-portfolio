@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./styles/AppCard.css";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
