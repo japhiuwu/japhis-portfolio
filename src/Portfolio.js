@@ -6,6 +6,27 @@ import "./styles/Portfolio.css";
 
 const Projects = [
   {
+  title: "Tienda Virtual",
+  shortName: "Tienda Virtual",
+  description: "Tienda Virtual: proyecto personal de una tienda genérica de productos musicales y merchandising. Esta aplicación sirve como demostración de diseño y funcionalidad de un e-commerce, incluyendo visualización de álbumes, artículos de merch, carrito de compras y secciones de contacto y sobre nosotros. No es una tienda funcional, sino una simulación para fines educativos y de portafolio.",
+  images: [
+    "https://res.cloudinary.com/dr5gfo075/image/upload/v1759295708/5fd765c6-1a5c-49d0-b1d5-dfbd6b52cbd7.png",
+  ],
+  technologies: [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+  ],
+  keyPoints: [
+    "Diseño de e-commerce para productos musicales y merchandising.",
+    "Visualización de álbumes y artículos de merch con imágenes y detalles.",
+    "Simulación de carrito de compras y gestión de cantidades.",
+    "Secciones de 'Sobre Nosotros' y 'Contáctanos' para una landing completa.",
+    "Proyecto de portafolio personal, no funcional como tienda real."
+  ],
+  website: "https://shopping-cart-21y.pages.dev/",
+  github: "https://github.com/japhiuwu/shopping-cart"
+  },
+  {
     title: "Servicios Técnicos Múltiples Iker",
     shortName: "STMI",
     description:
