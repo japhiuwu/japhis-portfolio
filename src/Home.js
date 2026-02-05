@@ -64,7 +64,7 @@ function Home() {
     animate="show"
   >
   <h3 className="absolute top-16 left-1/2 -translate-x-1/2 font-semibold z-50">
-    Japhi&apos;s Portafolio
+    Japhi&apos;s Portfolio
   </h3>
   <div className="flex flex-col items-center gap-14">
     
