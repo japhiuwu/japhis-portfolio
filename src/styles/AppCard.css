@@ -1,19 +1,20 @@
-.container {
+.info-section{
   display: flex;
   letter-spacing: 1px;
   background-color: #00000000;
   color: #fff;
   border-radius: 20px;
   margin-top: 20px;
-  width: 100%;
   height: 60vh;
+  width: 100%;
+  transition: flex-direction 0.3s ease;
 }
 
 #cover {
   border-radius: 15px;
   margin-left: 20px;
-  width: 52%;
   object-fit: cover;
+  width: 55%;
 }
 
 .info-text {
@@ -77,6 +78,7 @@
   font-size: 70%;
   margin-top: 5px;
   height: 15%;
+  font-weight: 400;
 }
 
 #text {
@@ -93,7 +95,7 @@
 }
 
 #list {
-  font-size: 35%;
+  font-size: 30%;
   text-align: left;
   margin-left: 30px;
   color: #ffffffc1;
@@ -101,4 +103,21 @@
 
 .react-multi-carousel-list {
   height: 40vh;
+}
+
+@media (max-width: 1080px) {
+  .info-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+}
+
+@media (max-width: 1080px) {
+  #cover {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }

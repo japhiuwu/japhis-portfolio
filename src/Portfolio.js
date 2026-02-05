@@ -6,6 +6,25 @@ import "./styles/Portfolio.css";
 
 const Projects = [
   {
+  title: "WHERE'S WALDO?",
+  shortName: "WHERE'S WALDO?",
+  description: "Juego interactivo de Where's Waldo? donde los usuarios deben localizar al persoaje principal oculto en escenarios detallados. Combinando diseño visual, lógica de detección de clicks y una interfaz intuitiva.",
+  images: [
+    "https://res.cloudinary.com/dr5gfo075/image/upload/v1770166585/71661620-95a9-43a4-b4d2-99dabd772afb.png",
+  ],
+  technologies: [
+    "React",
+    "Tailwind CSS"
+  ],
+  keyPoints: [
+    "Sistema de puntuación y temporizador para medir desempeño.",
+    "Diseño responsivo y optimizado para diferentes dispositivos.",
+    "Base de datos implementada en Supabase con conexión mediante su REST API."
+  ],
+  website: "https://wheres-waldo-e80.pages.dev/",
+  github: "https://github.com/japhiuwu/wheres-waldo"
+  },
+  {
   title: "Tienda Virtual",
   shortName: "Tienda Virtual",
   description: "Proyecto personal de una tienda genérica de productos musicales y merchandising. Esta aplicación sirve como demostración de diseño y funcionalidad de un e-commerce, incluyendo visualización de álbumes, artículos de merch, carrito de compras y landing page.",
@@ -13,8 +32,8 @@ const Projects = [
     "https://res.cloudinary.com/dr5gfo075/image/upload/v1759295708/5fd765c6-1a5c-49d0-b1d5-dfbd6b52cbd7.png",
   ],
   technologies: [
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+    "React",
+    "Tailwind CSS"
   ],
   keyPoints: [
     "Diseño de e-commerce para productos musicales y merchandising.",
@@ -33,7 +52,7 @@ const Projects = [
       "https://res.cloudinary.com/dr5gfo075/image/upload/v1752545870/1d1a44a4-0609-4878-97e8-6459c879f92d.png",
     ],
     technologies: [
-      "https://companieslogo.com/img/orig/WIX.D-9b5f1d10.png?t=1720244494"
+      "WIX"
     ],
     keyPoints: [
       "Catálogo interactivo de productos y servicios.",
@@ -43,7 +62,7 @@ const Projects = [
     website: "https://ikermaradiaga089.wixsite.com/stm-iker",
     github: "",
   },
-    {
+  {
     title: "SuperMarket",
     shortName: "SM",
     description:
@@ -52,8 +71,8 @@ const Projects = [
       "https://res.cloudinary.com/dr5gfo075/image/upload/v1752546628/d35e7691-b618-4871-860b-733883bb3cc4.png",
     ],
     technologies: [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1820px-Logo_C_sharp.svg.png",
-      "https://www.aprendexojo.com/wp-content/uploads/2018/03/Sqlite.png"],
+      "C#",
+      "SQLite"],
     keyPoints: [
       "Control de ventas e inventario en tiempo real.",
       "Registro y gestión de empleados, clientes y proveedores.",
@@ -62,7 +81,7 @@ const Projects = [
     website: "",
     github: "https://github.com/ElderSolano/ProyectoMercadito.git",
   },
-    {
+  {
     title: "Ecosistema Digital Empresarial M365",
     shortName: "Microsoft 365",
     description:
@@ -71,10 +90,10 @@ const Projects = [
       "https://res.cloudinary.com/dr5gfo075/image/upload/v1752546745/975214f3-13b0-4708-ac60-d239c3f39ea9.png",
     ],
     technologies: [
-      "https://cdn.sanity.io/images/n1bn8kr3/production/ddf9e78ab06e6909dddf6b97b375dc8df3838005-642x512.png?w=1920&fm=webp&q=100&fit=clip&auto=format",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Microsoft_365_%282022%29.svg/931px-Microsoft_365_%282022%29.svg.png",
-      "https://brandlogo.org/wp-content/uploads/2025/05/Microsoft-Bookings-Icon-2024.png.webp",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/2048px-Microsoft_Entra_ID_color_icon.svg.png"
+      "Power Automate",
+      "Microsoft 365",
+      "Bookings",
+      "Microsoft Entra ID"
     ],
     keyPoints: [
       "Configuración de dominio personalizado y gestión de usuarios en Microsoft 365.",
@@ -84,7 +103,7 @@ const Projects = [
     website: "",
     github: "",
   },
-    {
+  {
     title: "Generador CV",
     shortName: "CV-Generator",
     description:
@@ -93,8 +112,8 @@ const Projects = [
       "https://res.cloudinary.com/dr5gfo075/image/upload/v1756690400/a347f14c-34a2-427b-be59-5e1fcf35cde5.png",
     ],
     technologies: [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+      "React",
+      "Tailwind CSS"
     ],
     keyPoints: [
       "Interactividad en tiempo real",
@@ -104,7 +123,7 @@ const Projects = [
     website: "https://cv-generator-2fi.pages.dev/",
     github: "https://github.com/japhiuwu/CV-Generator",
   },
-    {
+  {
     title: "VIKIA",
     shortName: "VIKIA",
     description:
@@ -113,10 +132,10 @@ const Projects = [
       "https://res.cloudinary.com/dr5gfo075/image/upload/v1752548261/ae80ed51-382e-48d4-aad6-4635d9b207c0.png",
     ],
     technologies: [
-      "https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817",
-      "https://freesvg.org/img/1486641506.png",
-      "https://images.icon-icons.com/2699/PNG/512/mongodb_logo_icon_170943.png"
+      "HTML 5",
+      "CSS",
+      "JavaScript",
+      "MongoDB"
     ],
     keyPoints: [
       "Plataforma con roles diferenciados: cliente, delivery y administrador.",
@@ -126,7 +145,7 @@ const Projects = [
     website: "https://japhiuwu.github.io/landing-page-vikia/",
     github: "https://github.com/japhiuwu/frontend-cliente-vikia.git",
   },
-    {
+  {
     title: "ScheduleMaster",
     shortName: "ScheduleMaster",
     description:
@@ -135,10 +154,10 @@ const Projects = [
       "https://res.cloudinary.com/dr5gfo075/image/upload/v1752552093/WhatsApp_Image_2025-07-14_at_9.55.16_PM_ps0br8.jpg",
     ],
     technologies: [
-      "https://img.icons8.com/fluent-systems-filled/512/FFFFFF/nextjs.png",
-      "https://brandlogos.net/wp-content/uploads/2025/03/firebase_icon-logo_brandlogos.net_tcvck.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+      "NextJS",
+      "Firebase",
+      "Azure",
+      "Tailwind CSS"
     ],
     keyPoints: [
       "Generación dinámica de horarios académicos y secciones.",
@@ -148,7 +167,7 @@ const Projects = [
     website: "https://schedule-master.pages.dev/",
     github: "https://github.com/japhiuwu/ScheduleMasterApp.git",
   },
-      {
+  {
     title: "Generador de Boletos Automatizado",
     shortName: "",
     description:
@@ -157,10 +176,7 @@ const Projects = [
       "https://res.cloudinary.com/dr5gfo075/image/upload/v1752631410/diplomas_kmotion_1_wukdit.png",
     ],
     technologies: [
-      "https://img.icons8.com/fluent-systems-filled/512/FFFFFF/nextjs.png",
-      "https://brandlogos.net/wp-content/uploads/2025/03/firebase_icon-logo_brandlogos.net_tcvck.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+      "Python"
     ],
     keyPoints: [
       "Generación dinámica de horarios académicos y secciones.",

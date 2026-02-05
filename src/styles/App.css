@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.active {
+  filter: drop-shadow(0 0 15px #00b4ff);
+}
+
+.menu-label {
+  font-size: 1.5rem;
+  letter-spacing: 0.3em;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 180, 255, 0.9);
+}
+
+.home-button {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

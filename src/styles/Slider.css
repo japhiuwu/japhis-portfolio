@@ -8,7 +8,7 @@ body{
 }
 
 .slider {
-  overflow:hidden;
+  overflow:visible;
   padding-top: 2rem;
 }
 
@@ -26,7 +26,13 @@ body{
 }
 
 .react-multi-carousel-list {
-padding: 0rem 0 2rem 0;
+  display: flex;
+  padding: 0rem 0 3rem 0;
+}
+
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
 }
 
 .custom-dot-list-style button{
@@ -36,4 +42,33 @@ background: rgb(68, 215, 255);
 }
 .react-multi-carousel-dot.react-multi-carousel-dot--active button{
 background: rgb(68, 152, 255) !important;
+}
+.react-multiple-carousel__arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(6px);
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s ease, background 0.4s ease;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+.react-multiple-carousel__arrow::before {
+  position: static !important;
+  margin: 0 !important;
+  line-height: 1;
+  transform: translateX(3.5px);
+  font-size: 20px;
+}
+
+.react-multiple-carousel__arrow:hover {
+  transform: scale(1.1);
+  background: rgba(0,0,0,0.7);
+
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.8);
 }
